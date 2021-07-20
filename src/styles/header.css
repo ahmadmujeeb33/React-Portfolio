@@ -1,0 +1,16 @@
+.menu-bar{
+    background-image: linear-gradient(#B8F2E6,#FAF3DD,#FFA69E);
+    
+
+}
+
+.menu-bar-items{
+    display:flex;
+    gap:20px;
+    width:90%;
+    justify-content: flex-end;
+}
+
+.menu-bar p{
+    color:black
+}
