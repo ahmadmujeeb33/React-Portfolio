@@ -1,0 +1,49 @@
+.AboutContainer{
+    min-height: 100vh;
+    background-color:#fff8e7;
+    background-image: linear-gradient(to bottom right, #fff);
+    display:flex;
+    justify-content: center;
+    width:100%
+    
+  
+
+    /* background-image: linear-gradient(#AACC00,#52796F); */
+}
+
+.title{
+    width:25%;
+    
+}
+
+.title h1{
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.avatarImage{
+    margin-top:50px;
+    
+    
+}
+
+.AboutMeInfo span {
+    width: 90%;
+    
+    
+}
+.AboutMeInfo h1{
+    width: 50%;
+
+}
+
+.AboutContainerContent{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    gap:50px;
+    height: 50vh;
+   
+    
+}

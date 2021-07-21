@@ -6,7 +6,7 @@ function Header() {
           <div className = "menu-bar">
             <div className = "menu-bar-items">
                 <p>About Me</p>
-                <p>Potfilio</p>
+                <p>Portfolio</p>
                 <p>Contact</p>
                 <p>Resume</p>
             </div>

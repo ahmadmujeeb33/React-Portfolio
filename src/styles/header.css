@@ -1,5 +1,5 @@
 .menu-bar{
-    background-image: linear-gradient(#B8F2E6,#FAF3DD,#FFA69E);
+    background-image: linear-gradient(to bottom right,#B8F2E6,#FAF3DD,#FFA69E);
     
 
 }
@@ -12,5 +12,6 @@
 }
 
 .menu-bar p{
-    color:black
+    color:black;
+    font-weight: bold;
 }
