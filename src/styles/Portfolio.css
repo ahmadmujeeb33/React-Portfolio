@@ -1,0 +1,13 @@
+.PortfolioContainer{
+    background-color:#edf2fb;
+    height: 100vh;
+}
+
+#title{
+    width:80%;
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding-bottom:20px
+}

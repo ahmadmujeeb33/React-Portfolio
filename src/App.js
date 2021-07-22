@@ -6,6 +6,8 @@ import AboutMePage from './pages/AboutMePage'
   
 import { Route, Switch } from 'react-router-dom';
 
+import PortfolioPage from './pages/PortfolioPage'
+
 function App() {
   return (
     <div>
@@ -14,10 +16,10 @@ function App() {
         <Route path='/' exact>
           <AboutMePage/>
         </Route>
-        {/* <Route path='/new-meetup'>
-          <NewMeetupPage />
+        <Route path='/portfolio' exact>
+          <PortfolioPage />
         </Route>
-        <Route path='/favorites'>
+        {/* <Route path='/favorites'>
           <FavoritesPage />
         </Route> */}
       </Switch>

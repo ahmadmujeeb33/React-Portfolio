@@ -1,5 +1,5 @@
 import '../styles/AboutMe.css';
-import avatar from "../Images/Avatar.PNG"
+import avatar from "../Images/Avatar.png"
 import python from "../Images/python.png"
 import java from "../Images/java.png"
 import cplusplus from "../Images/c++.png"
@@ -8,8 +8,8 @@ import jquery from "../Images/jquery.png"
 import node from "../Images/node.PNG"
 import react from "../Images/react.png"
 import express from "../Images/express.png"
-import mysql from "../Images/mysql.png"
 import database from "../Images/database.png"
+
 
 
 function AboutMePage (){

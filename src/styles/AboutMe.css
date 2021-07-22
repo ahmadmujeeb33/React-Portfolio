@@ -31,8 +31,12 @@
     
 }
 
+.AboutMeInfo{
+   
+}
+
 .AboutMeInfo span {
-    width: 90%;
+    height:100px;
     
     
 }
@@ -47,6 +51,7 @@
     width: 50%;
     gap:50px;
     height: 50vh;
+    flex-wrap: nowrap;
 }
 
 .images{

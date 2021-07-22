@@ -1,6 +1,6 @@
 .menu-bar{
     background-image: linear-gradient(to bottom right,#B8F2E6,#FAF3DD,#FFA69E);
-    
+    height: 50px;
 
 }
 
@@ -11,7 +11,7 @@
     justify-content: flex-end;
 }
 
-.menu-bar p{
+.menu-bar {
     color:black;
     font-weight: bold;
 }
