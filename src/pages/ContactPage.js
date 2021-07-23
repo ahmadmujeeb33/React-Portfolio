@@ -1,13 +1,16 @@
 import '../styles/Contact.css';
 
+function displayResults(){
+    console.log("here");
+    alert("all completed")
+}
+
 
 function ContactPage(){
     return (
         <div>
             <div className="ContactContainer">
-                
-
-                
+                                
                 <div className = "form">
                     <div className = "formInfo">
                         <h1>Contact Page</h1>
@@ -29,7 +32,7 @@ function ContactPage(){
                     
 
                         </form>
-
+                        <button onclick= {displayResults}>Submit</button>
                     </div>
                 </div>
                    
