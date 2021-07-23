@@ -3,6 +3,7 @@ import logo from './logo.svg';
 
 import Header from './components/Header';
 import AboutMePage from './pages/AboutMePage'
+import Footer from './components/Footer'
   
 import { Route, Switch } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
           <ContactPage/>
         </Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }
