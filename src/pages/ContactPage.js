@@ -1,7 +1,7 @@
 import '../styles/Contact.css';
 
-function displayResults(){
-    console.log("here");
+function displayResults(e){
+    e.preventDefault();
     alert("all completed")
 }
 
@@ -14,7 +14,7 @@ function ContactPage(){
                 <div className = "form">
                     <div className = "formInfo">
                         <h1>Contact Page</h1>
-                        <form>
+                        <form >
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Name</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
@@ -29,10 +29,10 @@ function ContactPage(){
                                 <label for="exampleFormControlTextarea1">Message</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                    
+                            <button onClick= {displayResults} >Submit</button>
 
                         </form>
-                        <button onclick= {displayResults}>Submit</button>
+                       
                     </div>
                 </div>
                    
