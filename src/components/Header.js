@@ -6,9 +6,9 @@ function Header() {
       <div>
           <div className = "menu-bar">
             <div className = "menu-bar-items">
-                <Link to = "/React-Portfolio">About Me</Link>
-                <Link to = "/React-Portfolio/Portfolio">Portfolio</Link>
-                <Link to = "/React-Portfolio/contact">Contact</Link>
+                <Link to = "/">About Me</Link>
+                <Link to = "/Portfolio">Portfolio</Link>
+                <Link to = "/contact">Contact</Link>
                 <Link>Resume</Link>
             </div>
           </div>
