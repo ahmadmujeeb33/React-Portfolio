@@ -15,19 +15,17 @@ function App() {
   return (
     <div>
       <Header/>
-        <Router basename = {process.env.PUBLIC_URL}>
           <Switch>
-            <Route path='/' exact>
-              <AboutMePage/>
-            </Route>
             <Route path='/portfolio' exact>
               <PortfolioPage />
             </Route>
-            <Route path='/contact'>
+            <Route path='/contact' exact>
               <ContactPage/>
             </Route>
+            <Route path='/'>
+              <AboutMePage/>
+            </Route>
           </Switch>
-        </Router>
       <Footer/>
     </div>
   );
