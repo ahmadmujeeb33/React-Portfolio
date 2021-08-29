@@ -4,4 +4,4 @@ This is a personal website showing my personal projects and the tools and langua
 
 This is the link to the personal website
 
-https://ahmadmujeeb33.github.io/
+https://ahmadmujeeb33.github.io/React-Portfolio/
