@@ -8,7 +8,7 @@ function Header() {
             <div className = "menu-bar-items">
                 <Link to = "/">About Me</Link>
                 <Link to = "/Portfolio">Portfolio</Link>
-                <Link to = "/contact">Contact</Link>
+                {/* <Link to = "/contact">Contact</Link> */}
                 <Link>Resume</Link>
             </div>
           </div>

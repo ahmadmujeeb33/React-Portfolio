@@ -1,6 +1,6 @@
 .PortfolioContainer{
     background-color:#edf2fb;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #title{
@@ -30,10 +30,12 @@
 #logo-holder .liveApplication{
     transition: opacity 0.5s ease-in-out;
     position:absolute; top:0; left:0; opacity:0;
+ 
 }
 
 #logo-holder:hover .image {
     opacity:0;
+   
 }
 #logo-holder:hover .text {
     opacity:1;
@@ -47,6 +49,7 @@
     color: black;
     top: 100px;
     left:100px;
+    
 }
 
 #logo-holder:hover .liveApplication{
@@ -54,4 +57,5 @@
     color: black;
     top: 100px;
     left:200px;
+    
 }

@@ -19,9 +19,6 @@ function App() {
             <Route path='/portfolio' exact>
               <PortfolioPage />
             </Route>
-            <Route path='/contact' exact>
-              <ContactPage/>
-            </Route>
             <Route path='/'>
               <AboutMePage/>
             </Route>
